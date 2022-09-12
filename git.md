@@ -6,18 +6,20 @@
 | `git config user.name <name>` | Set user name for specify repository |
 | `git config user.email <email>` | Set user email for specify repository |
 
-<!---
-## Basics
-```sh
-git clone <repo>
-```
+## Basic
+| Command | Description |
+| - | - |
+| `git clone <repository ssh/http>` | Clone the given repository |
+| `git status` | Get current state of local repository |
+| `git add <file/. >` | Add file to commit. Use dot to all files |
 
-## Commiting
-```sh
-git add . 
-git commit -m
-git commit -a -m
-```
+## Commit
+| Command | Description |
+| - | - |
+| `git commit -m <message>` | Commit using the given message |
+| `git commit -a -m <message>` | Add all files and commit using the given message |
+<!---
+
 git push --set-upstream origin $new_branch
 
 ## Working with Repositories
