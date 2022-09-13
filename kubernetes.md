@@ -35,7 +35,7 @@
 | Command | Description |
 | - | - |
 | `kubectl get secret <secret-name>` | Get information about that secret |
-| `kubectl get secret <secret-name> -o jsonpath='{.data.*}' | base -d` | Get secrets decoded |
+| `kubectl get secret <secret-name> -o jsonpath='{.data.*}' \| base -d` | Get secrets decoded |
 
 ## Nodes
 | Command | Description |
