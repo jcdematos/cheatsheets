@@ -11,6 +11,9 @@
 | - | - |
 | `git clone <repository>` | Clone the given repository |
 | `git status` | Get current state of local repository |
+| `git pull` | Update local with server |
+| `git pull --rebase` | Update local server with rebase |
+| `git push` | Push your changes to server |
 
 ## Commit
 | Command | Description |
@@ -34,6 +37,7 @@
 | - | - |
 | `git stash` | Stash changes |
 | `git stash list` | List stashed changes |
+| `git stash pop` | Apply most recent stash |
 | `git stash apply` | Apply most recent stash |
 | `git stash apply stash@{n}` | Apply an older stash |
 
