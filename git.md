@@ -29,6 +29,15 @@
 | `git branch <new_branch> <base_branch>` | Create new branch from base branch |
 | `git push --set-upstream origin <new_branch>` | Set new branch with upstream |
 
+## Stash
+| Command | Description |
+| - | - |
+| `git stash` | Stash changes |
+| `git stash list` | List stashed changes |
+| `git stash apply` | Apply most recent stash |
+| `git stash apply stash@{n}` | Apply an older stash |
+
+
 <!---
 
 ## Working with Repositories
