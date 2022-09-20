@@ -11,9 +11,12 @@
 | - | - |
 | `git clone <repository>` | Clone the given repository |
 | `git status` | Get current state of local repository |
-| `git pull` | Update local with server |
-| `git pull --rebase` | Update local server with rebase |
-| `git push` | Push your changes to server |
+| `git log` | Show commit history |
+| `git pull` | Update local with remote |
+| `git pull --rebase` | Update local with remote and rebase |
+| `git push` | Push your changes to remote |
+| `git push --force` | Use to force changes already commit in remote |
+| `
 
 ## Commit
 | Command | Description |
@@ -22,6 +25,10 @@
 | `git checkout -- <files>` | Remove files from staged |
 | `git commit -m <message>` | Commit using the given message |
 | `git commit -a -m <message>` | Add all files and commit using the given message |
+| `git commit --amend` | Merge changes into last commit |
+| `git reset HEAD~n` | Remove the commit but leave changes (soft reset) |
+| `git reset --hard HEAD~n` | Reset n commits and remove changes |
+| `git rever <commit_hash>` | Revert a commit |
 
 ## Branches 
 | Command | Description |
